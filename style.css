@@ -42,13 +42,13 @@ img {
 /* Header */
 header {
     background: rgb(16, 116, 188);
-    padding: 6px;
-    font-size: 20px;
+    padding: 1px;
+    font-size: 10px;
     /* Default Light Mode */
 body {
     background: linear-gradient(120deg, #ff00ff, #0099ff, #00ffcc);
     color: black;
-    transition: background 0.5s, color 0.5s;
+    transition: background 2s, color 2s;
 }
 
 /* Dark Mode */
