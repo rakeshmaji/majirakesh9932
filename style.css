@@ -9,6 +9,18 @@ body {
     text-align: center;
     overflow-x: hidden;
 }
+body {
+    user-select: none;  /* Prevent text selection */
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+}
+
+/* Disable dragging images */
+img {
+    pointer-events: none;
+    -webkit-user-drag: none;
+}
 
 /* 3D Background Animation */
 .background {
